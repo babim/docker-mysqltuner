@@ -1,4 +1,5 @@
-#Usage
+# Usage
+
 This container will always pull the latest version of MySQLTuner. The following will get you started:
 ```
 docker run -it --rm babim/mysqltuner --host <hostname> \
