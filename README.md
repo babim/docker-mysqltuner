@@ -9,7 +9,7 @@ docker run -it --rm babim/mysqltuner --host <hostname> \
 ```
 Since this docker container will always be communicating with a remote MySQL instance, the --forcemem option must be used to specify the RAM on the external server.
 
-For a list of all MySQLTuner options, run: `docker run -it --rm owski/mysqltuner --help`
+For a list of all MySQLTuner options, run: `docker run -it --rm babim/mysqltuner --help`
 ```
 Name:
      MySQLTuner 1.7.4 - MySQL High Performance Tuning Script
